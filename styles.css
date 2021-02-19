@@ -85,6 +85,10 @@ main {
 .movie-info span.red{
   color: red;
 }
+.movie:hover{
+  transform: scale(1.07);
+  transition: all 0.3s ease-in;
+}
 .overview{
   background-color: rgba(185, 3, 3, 0.8);
   /* display: flex; */
@@ -124,7 +128,7 @@ main {
 
 @media (max-width:800px){
   .movie{
-    width: 44vw;
+    width: 43vw;
   }
   html{
     font-size: 70%;
